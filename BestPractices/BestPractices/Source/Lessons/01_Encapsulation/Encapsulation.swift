@@ -49,7 +49,6 @@ class Cherrie
 		self.age = age
 	}
 
-
 	// Getter method for the name property
 	func getName() -> String
 	{

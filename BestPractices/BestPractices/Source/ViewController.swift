@@ -18,5 +18,6 @@ class ViewController: UIViewController
 		EncapsulationTest.test()
 		AbstractionTest.test()
 		LooseCoupling.test()
+		Polymorphism.test()
 	}
 }

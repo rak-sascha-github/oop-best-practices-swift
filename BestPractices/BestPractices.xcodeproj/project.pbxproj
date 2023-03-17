@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3090E87B2BB60F2FE3AE6C90 /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3090EEB3A0470E843EBA9E84 /* Encapsulation.swift */; };
 		3090E97A4E37E03980152052 /* LooseCoupling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3090E5E95F38DEC9BAC72A5F /* LooseCoupling.swift */; };
+		3090EBBC04A62CDDDEFBE8EC /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3090E1A1E2EDEA6C5BC327CD /* Polymorphism.swift */; };
 		3090EC9C294B3FD708829FAF /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3090E41CFADC06117F9B9EEE /* Abstraction.swift */; };
 		ECEC1FAF29C42E32004B3FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1FAE29C42E32004B3FFF /* AppDelegate.swift */; };
 		ECEC1FB129C42E32004B3FFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC1FB029C42E32004B3FFF /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3090E1A1E2EDEA6C5BC327CD /* Polymorphism.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
 		3090E41CFADC06117F9B9EEE /* Abstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
 		3090E5E95F38DEC9BAC72A5F /* LooseCoupling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LooseCoupling.swift; sourceTree = "<group>"; };
 		3090EEB3A0470E843EBA9E84 /* Encapsulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 				3090E41CFADC06117F9B9EEE /* Abstraction.swift */,
 			);
 			path = 02_Abstraction;
+			sourceTree = "<group>";
+		};
+		3090E4EFD63D1430338187CE /* 04_Polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				3090E1A1E2EDEA6C5BC327CD /* Polymorphism.swift */,
+			);
+			path = 04_Polymorphism;
 			sourceTree = "<group>";
 		};
 		3090E8EFFB2041A47AEBEC52 /* 01_Encapsulation */ = {
@@ -128,6 +138,7 @@
 				3090E8EFFB2041A47AEBEC52 /* 01_Encapsulation */,
 				3090E2013E1E044F820C497F /* 02_Abstraction */,
 				3090E09B59AE7310669F20DD /* 03_LooseCoupling */,
+				3090E4EFD63D1430338187CE /* 04_Polymorphism */,
 			);
 			path = Lessons;
 			sourceTree = "<group>";
@@ -209,6 +220,7 @@
 				3090E87B2BB60F2FE3AE6C90 /* Encapsulation.swift in Sources */,
 				3090EC9C294B3FD708829FAF /* Abstraction.swift in Sources */,
 				3090E97A4E37E03980152052 /* LooseCoupling.swift in Sources */,
+				3090EBBC04A62CDDDEFBE8EC /* Polymorphism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
